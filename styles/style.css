@@ -1,0 +1,38 @@
+body {
+    background: black;
+}
+.zero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100vh;
+}
+.null {
+    width: 400px;
+    transition: all 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.image {
+    transition: all 1000ms;
+    z-index: 5;
+}
+.image:hover {
+    margin-bottom: 150px;
+}
+.code {
+    color: #fff;
+    font-size: 90px;
+    position: absolute;
+    bottom: 0;
+}
+.kek {
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    left: 50px;
+    top: 500px;
+    
+}
